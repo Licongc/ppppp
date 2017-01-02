@@ -15,6 +15,7 @@
 		03FCE9FD1E1A48DF008C9812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03FCE9FB1E1A48DF008C9812 /* LaunchScreen.storyboard */; };
 		03FCEA081E1A48DF008C9812 /* pppppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FCEA071E1A48DF008C9812 /* pppppTests.m */; };
 		03FCEA131E1A48E0008C9812 /* pppppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FCEA121E1A48E0008C9812 /* pppppUITests.m */; };
+		03FCEA221E1A49E8008C9812 /* fenzhitext1.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FCEA211E1A49E8008C9812 /* fenzhitext1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		03FCEA0E1E1A48DF008C9812 /* pppppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pppppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FCEA121E1A48E0008C9812 /* pppppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pppppUITests.m; sourceTree = "<group>"; };
 		03FCEA141E1A48E0008C9812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03FCEA201E1A49E8008C9812 /* fenzhitext1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fenzhitext1.h; sourceTree = "<group>"; };
+		03FCEA211E1A49E8008C9812 /* fenzhitext1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fenzhitext1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				03FCE9FB1E1A48DF008C9812 /* LaunchScreen.storyboard */,
 				03FCE9FE1E1A48DF008C9812 /* Info.plist */,
 				03FCE9ED1E1A48DF008C9812 /* Supporting Files */,
+				03FCEA201E1A49E8008C9812 /* fenzhitext1.h */,
+				03FCEA211E1A49E8008C9812 /* fenzhitext1.m */,
 			);
 			path = ppppp;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			files = (
 				03FCE9F51E1A48DF008C9812 /* ViewController.m in Sources */,
 				03FCE9F21E1A48DF008C9812 /* AppDelegate.m in Sources */,
+				03FCEA221E1A49E8008C9812 /* fenzhitext1.m in Sources */,
 				03FCE9EF1E1A48DF008C9812 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
