@@ -16,6 +16,7 @@
 		03FCEA081E1A48DF008C9812 /* pppppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FCEA071E1A48DF008C9812 /* pppppTests.m */; };
 		03FCEA131E1A48E0008C9812 /* pppppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FCEA121E1A48E0008C9812 /* pppppUITests.m */; };
 		03FCEA221E1A49E8008C9812 /* fenzhitext1.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FCEA211E1A49E8008C9812 /* fenzhitext1.m */; };
+		03FCEA251E1A4D07008C9812 /* ererererer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FCEA241E1A4D07008C9812 /* ererererer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		03FCEA141E1A48E0008C9812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03FCEA201E1A49E8008C9812 /* fenzhitext1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fenzhitext1.h; sourceTree = "<group>"; };
 		03FCEA211E1A49E8008C9812 /* fenzhitext1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fenzhitext1.m; sourceTree = "<group>"; };
+		03FCEA231E1A4D07008C9812 /* ererererer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ererererer.h; sourceTree = "<group>"; };
+		03FCEA241E1A4D07008C9812 /* ererererer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ererererer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				03FCE9ED1E1A48DF008C9812 /* Supporting Files */,
 				03FCEA201E1A49E8008C9812 /* fenzhitext1.h */,
 				03FCEA211E1A49E8008C9812 /* fenzhitext1.m */,
+				03FCEA231E1A4D07008C9812 /* ererererer.h */,
+				03FCEA241E1A4D07008C9812 /* ererererer.m */,
 			);
 			path = ppppp;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03FCEA251E1A4D07008C9812 /* ererererer.m in Sources */,
 				03FCE9F51E1A48DF008C9812 /* ViewController.m in Sources */,
 				03FCE9F21E1A48DF008C9812 /* AppDelegate.m in Sources */,
 				03FCEA221E1A49E8008C9812 /* fenzhitext1.m in Sources */,
@@ -504,6 +510,7 @@
 				03FCEA191E1A48E0008C9812 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03FCEA1A1E1A48E0008C9812 /* Build configuration list for PBXNativeTarget "pppppTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +519,7 @@
 				03FCEA1C1E1A48E0008C9812 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03FCEA1D1E1A48E0008C9812 /* Build configuration list for PBXNativeTarget "pppppUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +528,7 @@
 				03FCEA1F1E1A48E0008C9812 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
